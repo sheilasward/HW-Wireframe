@@ -1,0 +1,61 @@
+body {
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    font-family: "Arial","Helvetica Neue",Helvetica,sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 495px;
+    margin-top: 10px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+    position: absolute;
+    width: 80%;
+    top: 70px;
+    padding: 20px;
+}
+
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    padding: 5px;
+}
+
+footer {
+
+}
+
+#aside-style {
+    float: right;
+    width: 320px;
+    height: 220px;
+    margin-top: 10px;
+}
+
+#section-style {
+    float: left;
+    position: relative;
+    height: 220px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
